@@ -1,0 +1,21 @@
+{
+  "name": "Feuillet",
+  "short_name": "Feuillet",
+  "description": "Lire, annoter, signer et organiser des PDF. Gratuit, hors ligne.",
+  "lang": "fr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef0ec",
+  "theme_color": "#0d7a6f",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml"}
+  ],
+  "file_handlers": [
+    {"action": "./", "accept": {"application/pdf": [".pdf"]}, "icons": [{"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"}], "launch_type": "single-client"}
+  ]
+}

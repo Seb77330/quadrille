@@ -23,3 +23,7 @@ Un tableur gratuit qui tourne dans le navigateur et s'installe comme un logiciel
 Un seul fichier `index.html` (HTML/CSS/JS sans framework), moteur de formules maison.
 Bibliothèques open source embarquées dans `vendor/` : [SheetJS](https://sheetjs.com) (Apache-2.0) pour les fichiers Excel, [Chart.js](https://www.chartjs.org) (MIT) pour les graphiques.
 `sw.js` met l'app en cache pour le mode hors ligne : change `VERSION` à chaque mise à jour.
+
+## Aussi dans ce dépôt
+
+- **[Feuillet](pdf/)** : lecteur et éditeur PDF gratuit, hors ligne → https://seb77330.github.io/quadrille/pdf/
